@@ -1,0 +1,29 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:51778",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "PRIVATE_KEY_PATH": "C:\\Users\\slore\\Downloads\\clienAppKey.key",
+        "APP_ID": "b940df4b-86ec-4391-bb74-27570f848c30",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "ClientAppBackend": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:5001;http://localhost:5000"
+    }
+  }
+}
